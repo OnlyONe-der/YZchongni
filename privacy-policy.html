@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy - GridWeaver</title>
+  <meta name="description" content="Privacy Policy for GridWeaver (com.gridweaver.offline.tools)." />
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f7f8fa;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --line: #e5e7eb;
+      --accent: #2563eb;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0b1020;
+        --card: #111827;
+        --text: #e5e7eb;
+        --muted: #9ca3af;
+        --line: #374151;
+        --accent: #60a5fa;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+    .wrap {
+      max-width: 920px;
+      margin: 32px auto;
+      padding: 0 16px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 28px;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+    }
+    h1, h2 { line-height: 1.35; margin: 0 0 10px; }
+    h1 { font-size: 30px; }
+    h2 { font-size: 21px; margin-top: 26px; }
+    p { margin: 10px 0; }
+    ul { margin: 8px 0 10px 22px; padding: 0; }
+    li { margin: 4px 0; }
+    .meta { color: var(--muted); margin-bottom: 14px; }
+    .small { color: var(--muted); font-size: 14px; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .footer { margin-top: 22px; padding-top: 14px; border-top: 1px dashed var(--line); }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <article class="card">
+      <h1>Privacy Policy</h1>
+      <p class="meta">GridWeaver (<strong>com.gridweaver.offline.tools</strong>) &middot; Last updated: June 14, 2026</p>
+
+      <p>This Privacy Policy describes how GridWeaver ("the App," "we," "us," or "our") handles information when you use our Android application. GridWeaver is an offline toolkit for working with CSV, TSV, JSON, and plain text files on your device.</p>
+      <p>We designed GridWeaver to process your files locally. We do not operate backend servers for the App, and we do not collect, sell, or transmit your file contents or personal data to our own systems.</p>
+
+      <h2>1. Summary</h2>
+      <ul>
+        <li>The App works fully offline and does not request network access.</li>
+        <li>We do not require an account or sign-in.</li>
+        <li>We do not use third-party analytics, advertising, or crash-reporting SDKs.</li>
+        <li>Files and data you choose to work with are processed and stored on your device only, unless you use Android system backup features described below.</li>
+      </ul>
+
+      <h2>2. Information We Do Not Collect</h2>
+      <p>We do not collect the following through our own services:</p>
+      <ul>
+        <li>Name, email address, phone number, or other contact details (unless you email us directly)</li>
+        <li>Precise or approximate location</li>
+        <li>Contacts, call logs, SMS, or phone identifiers</li>
+        <li>Photos, videos, audio recordings, or camera data</li>
+        <li>Advertising identifiers</li>
+        <li>Browsing or search history outside the App</li>
+        <li>Automatic telemetry sent to our servers (we have none)</li>
+      </ul>
+
+      <h2>3. Information Processed on Your Device</h2>
+      <p>When you use GridWeaver, the following information may be stored locally on your device to provide App functionality. This information is not sent to us.</p>
+      <ul>
+        <li><strong>Files and table data you import or create:</strong> When you choose a file through the Android system file picker, paste text from the clipboard, or export a file, the App reads or writes only the content you select. Imported data may be stored in a local database so you can preview, filter, sort, transform, and export it in later sessions.</li>
+        <li><strong>Recent sessions and working data:</strong> Session names, row and column data, filters, sorts, and related working state are kept in local app storage.</li>
+        <li><strong>Operation history and undo data:</strong> The App may record operation types and snapshots on your device to support undo, redo, and session history features.</li>
+        <li><strong>App preferences:</strong> Settings such as your selected theme (light, dark, or system default) are stored locally.</li>
+        <li><strong>Clipboard content (optional):</strong> If you choose "Paste from clipboard" during import, the App reads clipboard text only at your request to import data. We do not continuously monitor the clipboard.</li>
+      </ul>
+      <p>You can remove locally stored App data at any time using Settings -&gt; Clear all local data in the App.</p>
+
+      <h2>4. Android Permissions</h2>
+      <p>GridWeaver is built to minimize sensitive permissions. The release App does not declare permissions such as Internet access, camera, microphone, location, contacts, phone state, broad storage access, or querying all installed apps.</p>
+      <p>File access works as follows:</p>
+      <ul>
+        <li><strong>System file picker (Storage Access Framework):</strong> You choose which files to open or where to save exports. The App accesses only the URIs you select.</li>
+        <li><strong>Internal app permission:</strong> The App may include a standard AndroidX signature-level permission used internally for secure in-app communication. This permission is not used to access your personal data and is not visible as a user-facing permission request.</li>
+      </ul>
+
+      <h2>5. How We Use Information</h2>
+      <p>Information processed by the App is used only on your device to:</p>
+      <ul>
+        <li>Import, preview, filter, sort, clean, merge, split, and export files you choose</li>
+        <li>Convert and validate JSON</li>
+        <li>Remember recent sessions and app settings</li>
+        <li>Support undo, redo, and operation history</li>
+      </ul>
+      <p>We do not use your data for advertising, profiling, or marketing.</p>
+
+      <h2>6. Data Sharing and Disclosure</h2>
+      <p>We do not sell, rent, or share your file contents or personal information with third parties for their own purposes.</p>
+      <p>Limited disclosure may occur only in these situations:</p>
+      <ul>
+        <li><strong>When you export or share files:</strong> If you save a file to a location you choose or share it through another app, that action is controlled by you and the other app or service you use.</li>
+        <li><strong>Legal requirements:</strong> We may disclose information if required by applicable law, regulation, legal process, or enforceable governmental request. Because we do not operate collection servers for the App, we generally would not possess user file data to disclose.</li>
+      </ul>
+
+      <h2>7. Third-Party Services</h2>
+      <p>The App uses standard Android and AndroidX open-source libraries (for example, UI, local database, and preferences components). These libraries run on your device and do not send your file contents to us.</p>
+      <p>The App does not integrate third-party analytics, advertising networks, or social login providers.</p>
+      <p>Your use of Google Play to install or update the App is subject to Google's Privacy Policy. Any payment, download, or account processing related to Google Play is handled by Google, not by us.</p>
+
+      <h2>8. Android Backup and Device Transfer</h2>
+      <p>Android backup and device-to-device transfer features may be enabled on your device. The App is configured to allow backup of local app preferences and database content through Android's system backup mechanisms when you have those features turned on.</p>
+      <p>Such backups are managed by Android and, where applicable, your Google account settings - not by GridWeaver servers. We do not receive or control those backups. You can review or disable backup options in your device settings.</p>
+
+      <h2>9. Data Retention and Deletion</h2>
+      <p>Data remains on your device until you delete it or uninstall the App. You may delete all local sessions, table data, operation history, and preferences using Settings -&gt; Clear all local data.</p>
+      <p>Uninstalling the App removes App data from your device, subject to Android backup behavior described above.</p>
+
+      <h2>10. Security</h2>
+      <p>Because processing happens locally and the App does not request network access, your files are not transmitted to our servers during normal App use. We recommend keeping your device updated and using a screen lock to protect local data on your device.</p>
+      <p>No method of electronic storage is completely secure. You are responsible for the files you import, export, and store.</p>
+
+      <h2>11. Children's Privacy</h2>
+      <p>GridWeaver is a general productivity tool and is not directed at children under 13. We do not knowingly collect personal information from children. If you believe a child has provided personal information to us by contacting us directly, please email us and we will delete that correspondence as appropriate.</p>
+
+      <h2>12. International Users</h2>
+      <p>The App processes data on your device where you use it. Because we do not operate data collection servers for core App functionality, we do not transfer your file contents to our own systems.</p>
+
+      <h2>13. Changes to This Privacy Policy</h2>
+      <p>We may update this Privacy Policy from time to time. When we do, we will revise the "Last updated" date at the top of this page. Continued use of the App after an update means you accept the revised policy.</p>
+
+      <h2>14. Contact Us</h2>
+      <p>If you have questions or requests regarding this Privacy Policy or the App, contact us at:</p>
+      <p>Email: <a href="mailto:miranda12bertha1@gmail.com">miranda12bertha1@gmail.com</a></p>
+      <p>App: GridWeaver<br />Package name: com.gridweaver.offline.tools</p>
+
+      <p class="footer small">&copy; 2026 GridWeaver. All rights reserved.</p>
+    </article>
+  </main>
+</body>
+</html>
